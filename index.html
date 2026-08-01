@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>iOSアプリのご案内・サポート</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1c1c1e;
+    --muted: #6e6e73;
+    --line: #e5e5ea;
+    --accent: #0071e3;
+    --card: #f5f5f7;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #000000;
+      --fg: #f5f5f7;
+      --muted: #98989d;
+      --line: #2c2c2e;
+      --accent: #2997ff;
+      --card: #1c1c1e;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", sans-serif;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 64px 24px 96px;
+  }
+  header { margin-bottom: 56px; }
+  h1 {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    margin: 0 0 8px;
+  }
+  header p {
+    color: var(--muted);
+    margin: 0;
+    font-size: 15px;
+  }
+  h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 48px 0 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--line);
+  }
+  .app {
+    background: var(--card);
+    border-radius: 16px;
+    padding: 28px;
+  }
+  .app + .app { margin-top: 20px; }
+  .app h3 {
+    font-size: 19px;
+    font-weight: 600;
+    margin: 0 0 12px;
+  }
+  .app p {
+    margin: 0 0 20px;
+    font-size: 15px;
+    color: var(--muted);
+  }
+  a { color: var(--accent); }
+  .links a {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 15px;
+    text-decoration: none;
+  }
+  .links a:hover { text-decoration: underline; }
+  dl { margin: 0; }
+  dt {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--muted);
+    margin-top: 20px;
+  }
+  dd { margin: 4px 0 0; font-size: 15px; }
+  footer {
+    margin-top: 72px;
+    padding-top: 24px;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 13px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>iOSアプリのご案内</h1>
+    <p>開発中のiOSアプリの紹介とサポート窓口のページです。</p>
+  </header>
+
+  <h2>アプリ</h2>
+
+  <div class="app">
+    <h3>せーの - AR身長比較アプリ</h3>
+    <p>AR技術で、カメラに映った相手と3Dアバターを並べて身長差を視覚的に確認できるiOSアプリです。比較した様子はそのまま撮影して共有できます。</p>
+    <div class="links">
+      <a href="https://apps.apple.com/jp/app/id6792618141">App Storeで見る</a>
+      <a href="https://www.kiyac.app/privacypolicy/L1wTXDv96CIiWVlk5AR5">プライバシーポリシー</a>
+    </div>
+  </div>
+
+  <div class="app">
+    <h3>パラメモ - 新スタイルのメモアプリ</h3>
+    <p>「あるもの」と「買うもの」をパラレル（横並び）に表示して管理する、新スタイルのメモアプリです。買い物リストの管理が一目瞭然になります。</p>
+    <div class="links">
+      <a href="https://apps.apple.com/jp/app/id1568839089">App Storeで見る</a>
+    </div>
+  </div>
+
+  <h2>サポート</h2>
+
+  <p>アプリに関するご質問・不具合のご報告は、以下のメールアドレスまでご連絡ください。内容を確認のうえ、順次返信いたします。</p>
+
+  <dl>
+    <dt>お問い合わせ先</dt>
+    <dd><a href="mailto:musamusa0607@gmail.com">musamusa0607@gmail.com</a></dd>
+
+    <dt>ご連絡いただく際にお知らせいただきたい情報</dt>
+    <dd>アプリ名／お使いのiPhoneの機種／iOSのバージョン／発生した状況</dd>
+  </dl>
+
+  <footer>
+    &copy; 2026 All rights reserved.
+  </footer>
+
+</div>
+</body>
+</html>
