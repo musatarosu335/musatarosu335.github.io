@@ -9,6 +9,7 @@ iOSアプリの公式サイト（GitHub Pages）。
 | ファイル | 役割 |
 |---|---|
 | `app-ads.txt` | AdMobの広告収益最適化のための認証ファイル。ドメインのルートに置く必要がある |
+| `hibino-bunko/privacy.html` | 日々ノ文庫のプライバシーポリシー。App Store Connect の「プライバシーポリシーURL」に登録する |
 | `index.html` | アプリ紹介ページ兼サポートページ。App Store Connect の「マーケティングURL」「サポートURL」に登録する |
 
 ## app-ads.txt について
